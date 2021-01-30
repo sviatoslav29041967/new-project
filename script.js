@@ -1,17 +1,17 @@
- " use strict ";
-let numberOfFilms = prompt("Сколько фильмов Вы посмотрели ?", "");
-let personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false
-};
-let a = prompt("Один из последних просмотренных Вами фильмов ?", "");
-let b = prompt("На сколько оцените его ?", "");
-let c = prompt("Один из последних просмотренных Вами фильмов ?", "");
-let d = prompt("На сколько оцените его ?", "");
+" use strict ";
+const num = 50;
+ switch (num) {
+  case 49: 
+    console.log('no good');
+    break;
+  case 94:
+    console.log('no');
+    break;
+  case 50:
+    console.log('nice');
+    break;
+  case 111:
+    console.log('No way');
+    break;  
 
-personalMovieDB.movies.a = b;
-personalMovieDB.movies.c = d;
-console.log(personalMovieDB);
+ }
